@@ -126,7 +126,7 @@ and ve shall make ze whole vorld sound like ze **boss music from Streets of Rage
 
 ---
 
-<img width="2048" height="1117" alt="megaboardv0 1_pcb" src="https://github.com/user-attachments/assets/07404376-3327-4096-8d44-ed557cf83e38" />
+<img width="2364" height="1290" alt="megaboardv0 1" src="https://github.com/user-attachments/assets/e5f6a3e4-d301-42d4-acda-ebea4e0bc7b1" />
 
 MEGABoard is an open-hardware reference PCB for authentic Yamaha FM and PSG chips, offering a modern, observable, and deterministic system. It is self-describing, measurable, and prioritizes transparency.
 Rather than enforcing one operating model, MEGABoard establishes a physical and electrical reference platform where multiple sound paths can coexist, be compared, and verified.
