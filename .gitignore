@@ -1,0 +1,49 @@
+# --- KiCad Project Files ---
+*.pyc
+*.pyo
+*.bak
+*.cadbak
+*-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+fp-info-cache
+*.kicad_prl
+# Ignore local project settings but keep shared ones
+*.kicad_user
+
+# --- PCB Manufacturing Outputs ---
+# Exclude Gerbers/Drill files (generate these fresh for PCBWay)
+[Gg]erber/
+[Gg]erbers/
+*.gbr
+*.drl
+*.xln
+*.pos
+
+# --- Firmware & Build Artifacts (ESP32 / RP2040) ---
+# ESP-IDF / Arduino / PlatformIO
+.pio/
+.espressif/
+build/
+node_modules/
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+
+# --- 3D Modeling & Mechanical ---
+# Keep final .step files, ignore working/temp files
+*.tmp
+*.swp
+*.log
+# If using Fusion360/Blender, ignore local lock files
+*.lck
+*.blend1
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
